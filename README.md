@@ -7,27 +7,26 @@
 - Drive a **servo** as a simple gauge responding to "clicks".
 
 ## Materials
-- Arduino UNO R4 (Minima or WiFi)
-- Breadboard + jumper wires
-- Piezo buzzer (active or passive)
-- Potentiometer (10 kΩ)
+- Arduino UNO R4
+- Piezo buzzer 
+- Potentiometer
 - Photoresistor (LDR)
 - 10 kΩ resistor (for LDR divider)
 - SG90 5V Micro Servo
-- Optional: LED + 220 Ω resistor, oscilloscope
 
 ## 1 - Random DAC Output
 **Goal**: Observe and modify distance-based the tone.
 - Change the thresholds -80/80 to control how often jumps occur.
 - Swap currentValue = 4095 with map(random(0,1024),0,1023,0,4095) to get more varied highs.
 - Try printing currentValue to Serial and watch in the Serial Plotter.
+[Arduino Doc Random()](https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/)
 
 ## 2 - Adding a Potentiometer
 **Goal**: Use a potentiometer to set the tone (pitch) and influence the DAC jumps.
 - Map potentiometer value to: (a) tone frequency `toneHz`, (b) DAC high level `dacHi`
 - Turn the knob: pitch rises and the “high” DAC level tracks with it.
 **tip** use the tone() function `tone(DAC_PIN, toneHz, 10);`
-- Make the system “twitchier” by lowering thresholds.
+[Arduino Tone Docu](https://docs.arduino.cc/language-reference/en/functions/advanced-io/tone/)
 
 ## 3 - switching to a photoresistor
 **Goal**: Build the basis of a fake Geiger counter where ticks get faster as more light hits the LDR.
