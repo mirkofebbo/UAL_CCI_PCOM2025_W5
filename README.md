@@ -1,4 +1,4 @@
-# Exercise: DAC and Randomness on Arduino UNO R4
+# Exercise: DAC and Randomness
 ## Learning Goals
 - Use the **DAC (Digital-to-Analog Converter)**.
 - Explore random number generation using `random()` and `randomSeed()`.
