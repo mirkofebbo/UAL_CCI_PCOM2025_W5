@@ -25,7 +25,9 @@
 - (GND) ground -> GND
 
 ⚠️ **MAKE SURE TO LOWER THE VOLUM ON THE SPEAKER**
+
 ⚠️ Speaker L and R both to A0 (DAC) ground to GND.
+
 ⚠️ Use USB-powered speakers only (no headphones/earbuds).
 
 # Explore sound
