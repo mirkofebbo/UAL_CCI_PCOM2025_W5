@@ -21,7 +21,7 @@
 ### Speaker / audio jack (powered speaker only)
 - (L) Left speaker -> A0 (DAC pin)
 - (R) Right speaker -> A0 (DAC pin)
-- (V) voltage -> **No need to connect since the speakers are power via USB**
+- ( ) Mic pin -> **No need to connect it**
 - (GND) ground -> GND 
 ⚠️ Speaker L and R both to A0 (DAC) ground to GND.
 ⚠️ Use USB-powered speakers only (no headphones/earbuds).
