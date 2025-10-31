@@ -35,7 +35,6 @@
 ## 2 - Start/stop 
 - Add the button
 - Use the button to mute/unmute.
-**Tip** use the `wave.stop()` function 
 
 
 ## 3 - Multiple waves
