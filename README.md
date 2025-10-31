@@ -17,7 +17,7 @@
 
 # 1 Make a geiger counter with the piezo! 
 **Do not use the USB power speaker with this code**
-You can find more about this section in the **dac_piexo** folder.
+You can find more about this section in the **dac_piezo** folder.
 ## Materials
 - Piezo buzzer
 - Photoresistor
@@ -26,7 +26,7 @@ You can find more about this section in the **dac_piexo** folder.
 
 # 2 *OPTIONAL* Explore audio.
 **Here you can switch from using the piezo to the USB powered speaker**
-You can find more about this section in the **dac_piexo** folder.
+You can find more about this section in the **dac_speaker_potentiometer** folder.
 ## Materials
 - Potentiometer
 - USB powered speaker
