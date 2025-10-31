@@ -22,7 +22,8 @@
 - (L) Left speaker -> A0 (DAC pin)
 - (R) Right speaker -> A0 (DAC pin)
 - ( ) Mic pin -> **No need to connect it**
-- (GND) ground -> GND 
+- (GND) ground -> GND
+⚠️ **MAKE SURE TO LOWER THE VOLUM ON THE SPEAKER**
 ⚠️ Speaker L and R both to A0 (DAC) ground to GND.
 ⚠️ Use USB-powered speakers only (no headphones/earbuds).
 
@@ -35,7 +36,6 @@
 ## 2 - Start/stop 
 - Add the button
 - Use the button to mute/unmute.
-
 
 ## 3 - Multiple waves
 **Goal**: Use the pot to control amplitude, and the button to switch waveforms.
