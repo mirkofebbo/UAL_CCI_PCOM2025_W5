@@ -13,6 +13,7 @@
 - 10 kΩ resistor (for LDR divider)
 - SG90 Servo motor
 - USB powered speaker
+- Jack barrel convertor to terminal pin
 
 # 1 Make a geiger counter with the piezo! 
 **Do not use the USB power speaker with this code**
@@ -30,3 +31,4 @@ You can find more about this section in the **dac_piexo** folder.
 - Potentiometer
 - USB powered speaker
 - Button
+- Jack barrel convertor to terminal pin
