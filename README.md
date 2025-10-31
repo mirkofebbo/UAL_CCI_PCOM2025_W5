@@ -23,8 +23,8 @@ You can find more about this section in the **dac_piexo** folder.
 - 10 kΩ resistor
 - SG90 Servo motor
 
-# 2 **OPTIONAL** Explore audio.
-** Here you can switch from using the piezo to the USB powered speaker**
+# 2 *OPTIONAL* Explore audio.
+**Here you can switch from using the piezo to the USB powered speaker**
 You can find more about this section in the **dac_piexo** folder.
 ## Materials
 - Potentiometer
