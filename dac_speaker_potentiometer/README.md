@@ -1,6 +1,6 @@
 # Exercise: DAC and speaker
 ## Learning Goals
-- Use the DAC to synthesize simple waveforms (square, saw, triangle).
+- Use the DAC to synthesize simple waveforms (square, saw, sine).
 - Control frequency or amplitude with a potentiometer.
 - Use a button to mute/switch waveforms.
 
