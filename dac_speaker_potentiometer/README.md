@@ -47,4 +47,5 @@ This runs a tiny software “synth” at a fixed sample rate and writes to the D
 - Use the button to switch between diffrent wave form
     - Saw
     - Square
+ 
 **Tip** those are functions included in the analogWave library
